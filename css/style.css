@@ -1,0 +1,282 @@
+/***
+ 
+Theme Name: Universal Template
+Version: 1.0
+Author: Slater River
+Author Website: http://slater-river.ml/
+ 
+**/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  background-color: #000;
+  font-family: 'Roboto', sans-serif;
+}
+
+#wrap {
+	font: Monospace 12px #d3d3d3;
+	top: 100px;
+	bottom: 50px;
+	width: 951px;
+	height: 950px;
+	margin: 0 auto;
+	color: #d3d3d3;
+	background-color: #111;
+}
+
+#head {
+	width: 951px;
+	height: 150px;
+	background-color: #111;
+}
+
+#logobox {
+	float: left;
+	width: 150px;
+	height: 130px;
+	padding: 10px;
+	background-color: #333;
+}
+
+#rsbox {
+  float: left;
+  width: 700px;
+  height: 150px;
+  border-top: 1px #d3d3d3 bold;
+  border-left: 1px #d3d3d3 bold;
+  background-color: #333;
+}
+
+#carousel {
+	float: left;
+	width: 781px;
+	height: 110px;
+	background-color: #333;
+}
+
+#navbar ul {
+    float: left;
+    height: 40px;
+    width: 781px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: #d3d3d3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navbar li a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #111;
+}
+
+#rnavbar {
+	float: right;
+	height: 40px;
+	width: 200px;
+	background-color: #333;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #333;
+    color: #000;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #333;
+    color: #000;
+}
+
+#main {
+	float: left;
+	width: 930px;
+	height: 700px;
+	margin: 10px;
+	background-color: #111;
+}
+
+#page {
+	float: left;
+	height: auto;
+	max-width: 900px;
+	color: #d3d3d3;
+	background-color: #111;
+}
+
+.b-box{
+  position:relative;
+  padding:20px 40px;
+  margin-bottom:20px;
+  background:#3d3d3d;
+  -webkit-box-shadow:1px 2px 3px #000;
+     -moz-box-shadow:1px 2px 3px #111;
+          box-shadow:1px 2px 3px #1d1d1d;
+}
+.b-box h1{
+  margin:0 0 12px 0;
+  padding:12px 0;
+  font-size:16px;
+  color:#ddd;
+  border-bottom:2px dotted #ddd;
+}
+.b-box p{
+  margin:0 0 12px 0;
+  line-height:1.8em;
+  font-size:12px;
+  color:#bbb;
+}
+
+.form{
+  font-size:.8em;
+  margin:2em 0 0 5em;
+}
+form label{
+  font-size:15px;
+  color:#bbb;
+  padding-bottom:5px;
+}
+form div{
+  padding:20px;
+}
+form div:last-child{
+  border-bottom:none;
+}
+form span{
+  display:block;
+  color:#aaa;
+}
+.form form input[type=text],
+form input[type=password],
+form textarea,
+form input[type=text].error,
+form input[type=password].error,
+form select.error{
+  padding:8px 5px;
+  width:300px;
+  font-size:14px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin:10px 0;
+  border:1px solid #555;
+  color:#d9c8be;
+  background:none;
+-webkit-border-radius:.2em;
+   -moz-border-radius:.2em;
+    border-radius:.2em;
+}
+.form form input[type=text]:focus,
+form input[type=password]:focus,
+form textarea:focus,
+form select:focus{
+  background:none;
+  outline:none;
+}
+.content form input[type=submit]{
+  cursor:pointer;
+  color:#999;
+  background:#555;
+  padding:8px 15px;
+  border:1px solid #555;
+-webkit-border-radius:.3em;
+   -moz-border-radius:.3em;
+    border-radius:.3em;
+}
+.content form input[type=submit]:hover{
+  background:#444;
+  color:#FFF;
+}
+.content form textarea{
+  height:100px;
+  width:300px;
+}
+.error{
+display:inline;
+  font-size:12px;
+  font-weight:normal;
+  padding:10px 0 0 10px;
+  color:#FF0000;
+}
+select.error{
+  padding:0;
+}
+/* content */
+.content ul{
+  margin:0 0 12px 0;
+}
+.content li{
+  color:#C4AC9E;
+  font-size:12px;
+  line-height:22px;
+}
+.content a{
+  color:#88aa00;
+}
+.content h2,
+.content h3{
+  color:#D9C8BE;
+  font-weight:bold;
+  margin:12px 0;
+}
+
+#footer {
+	float: left;
+	width: 931px;
+  padding: 10px;
+	height: 100px;
+	background-color: #333;
+	color: #d3d3d3;
+}
+
+#footer ul {
+	float: left;
+  display: inline;
+	list-style-type: none;
+	margin: 0 auto;
+}
+
+#footer li {
+	padding: 3px;
+	text-decoration: none;
+}
+
+#fcontent {
+	float: left;
+	padding: 5px;
+	text-align: center;
+	width: 0 auto;
+	background-color: #333;
+}
